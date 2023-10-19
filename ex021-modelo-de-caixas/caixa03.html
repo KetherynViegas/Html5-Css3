@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalidade</title>
+    <style>
+        h1{ 
+            border: 20px solid transparent;/*tem que ter esta propriedade para funcionar. */
+            padding: 10px;
+            /* modelo mais completo:
+            border-image-source: url('borda.png');
+            border-image-repeat: stretch;
+            border-image-slice: 34px ;*/
+            border-image:url('borda.png')34 stretch;
+        }
+        h2{
+            border: 15px solid black;
+            padding: 15px;
+
+            border-image: url('borda.png') 26 repeat;
+        }
+       p{
+        border: 5px solid black;
+        padding: 10px;
+        border-radius: 15px;
+        
+       }
+    </style>
+</head>
+<body>
+    <h1>Teste de Borda</h1>
+    <h2>Bordas</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda recusandae suscipit officiis. Odio laborum porro eos optio nesciunt nulla voluptatibus sunt doloribus. Officia fugit animi facilis laboriosam vero eius similique.</p>
+</body>
+</html>
